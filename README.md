@@ -68,14 +68,6 @@
     <iframe src="https://www.youtube.com/embed/MkZRO3D_MeY" title="Video sobre feminicidio" allowfullscreen></iframe>
   </section>
 
-  <section>
-    <h2>Imágenes para reflexionar</h2>
-    <div class="imagenes">
-      <img src="https://cdn.pixabay.com/photo/2020/04/14/13/04/feminism-5044484_1280.jpg" alt="Feminismo">
-      <img src="https://cdn.pixabay.com/photo/2017/03/28/12/10/gender-2181885_1280.jpg" alt="Igualdad de género">
-      <img src="https://cdn.pixabay.com/photo/2019/03/25/19/24/woman-4081981_1280.jpg" alt="Justicia para las mujeres">
-    </div>
-  </section>
 </main>
 
 <footer>
