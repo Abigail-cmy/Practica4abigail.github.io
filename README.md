@@ -1,75 +1,86 @@
 <!DOCTYPE html>
-<html lang=”es”>
-
-  <head>
-  <meta charset=”UTF-8”>
-  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
-  <title>Concientización sobre el Feminicidio</title>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conciencia sobre el Feminicidio</title>
   <style>
-    Body {
-      Font-family: Arial, sans-serif;
-      Background-color: #fff0f5;
-      Color: #333;
-      Margin: 0;
-      Padding: 0;
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      margin: 0;
+      padding: 0;
     }
-    Header {
-      Background-color: #c71585;
-      Color: white;
-      Padding: 20px;
-      Text-align: center;
+    header {
+      background-color: #7a003c;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    Main {
-      Padding: 20px;
+    main {
+      padding: 20px;
     }
-    A {
-      Color: #c71585;
-      Text-decoration: none;
+    section {
+      margin-bottom: 40px;
     }
-    A:hover {
-      Text-decoration: underline;
+    iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 350px;
+      display: block;
+      margin: 0 auto;
     }
-    Footer {
-      Background-color: #f8c8dc;
-      Text-align: center;
-      Padding: 10px;
-      Position: fixed;
-      Bottom: 0;
-      Width: 100%;
+    .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .imagenes img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h10>ALCEMOS LA VOZ</h10>
-    <h1>Contra el Feminicidio</h1>
-  </header>
+<header>
+  <h1>Conciencia sobre el Feminicidio</h1>
+  <p>Un problema urgente que requiere nuestra atención</p>
+</header>
 
-  <main>
+<main>
+  <section>
     <h2>¿Qué es el feminicidio?</h2>
-    <p>
-      El feminicidio es la forma más extrema de violencia de género, en la que una mujer es asesinada por razones asociadas a su género. 
-      Es un problema grave que afecta a miles de mujeres en todo el mundo y requiere atención, educación y justicia.
-    </p>
+    <p>El feminicidio es el asesinato de una mujer por razones de género. Es una forma extrema de violencia de género y refleja la desigualdad y el odio persistente hacia las mujeres. Esta página busca crear conciencia sobre este problema grave que afecta a muchas comunidades.</p>
+  </section>
 
-    <h2>Infórmate más</h2>
-    <p>
-      Para conocer más sobre el feminicidio y cómo puedes contribuir a la concientización y prevención, visita el siguiente enlace:
-    </p>
-    <p>
-      <a href=https://youtu.be/MkZRO3D_MeY?si=C5N21ia2lGlpC31N
-      
-      </a>
-    </p>
-  </main>
+  <section>
+    <h2>Video informativo</h2>
+    <iframe src="https://www.youtube.com/embed/MkZRO3D_MeY" title="Video sobre feminicidio" allowfullscreen></iframe>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Conciencia Social</p>
-  </footer>
+  <section>
+    <h2>Imágenes para reflexionar</h2>
+    <div class="imagenes">
+      <img src="https://cdn.pixabay.com/photo/2020/04/14/13/04/feminism-5044484_1280.jpg" alt="Feminismo">
+      <img src="https://cdn.pixabay.com/photo/2017/03/28/12/10/gender-2181885_1280.jpg" alt="Igualdad de género">
+      <img src="https://cdn.pixabay.com/photo/2019/03/25/19/24/woman-4081981_1280.jpg" alt="Justicia para las mujeres">
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Creado para fomentar la conciencia y exigir justicia. No más violencia contra las mujeres.</p>
+</footer>
 
 </body>
 </html>
-
-
-
